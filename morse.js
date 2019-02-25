@@ -13,8 +13,7 @@ var decode = function (morseCode) {
             }
         }
     }
-
     return decoded.map(arr => arr.join('')).join(' ');
 }
-
 decode("--- ... -- .- -.     -.-. .- .-.. .. ... -.- .- -.");
+
